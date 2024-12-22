@@ -1,12 +1,12 @@
 import UIKit
 
 //Open/Closed Principle (OCP)
-// A module, class or function should be open for extension but closed for modification. This means You should be extend the beahivior of class without modifying the source code.
+// A module, class or function should be open for extension but closed for modification. This means You should be extend the behavior of class without modifying the source code.
 
 //---> Open for extension and closed for modificaiton
-// protocols for behavior abstartion
-//- Inheritance for class functionality
-//--  Use of protocol oriented design, Genrics, composition
+//--> protocols for behavior abstartion
+//--> Inheritance for class functionality
+//--> Use of protocol oriented design, Genrics, composition
 
 protocol Shape {
     func calculateFieldArea() -> Double

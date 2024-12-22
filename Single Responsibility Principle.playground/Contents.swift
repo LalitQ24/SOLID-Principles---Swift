@@ -2,13 +2,13 @@ import UIKit
 
 //Single Responsibility Principle
 
-//A class should have one and only one reason to change, And class responsible for a single part of the functionality of your application.
+// A class should have only responsibility or reason to change. Each class should have a single responsibility or functionality and should not be affected by changes in other parts of the framework of the project.
 
 // --> Every class should have only One responsibility
 // --> Only Focused classes
-//-  Easy to implemnt and maintenance
-//-  Clear purpose
-// - Better testability
+//-->  Easy to implemnt and maintenance
+//-->  Clear purpose
+//-->  Better testability
 
 class User {
     let name: String

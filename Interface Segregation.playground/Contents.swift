@@ -4,11 +4,11 @@ import UIKit
 // It states that A client should not be forced to depend interfaces it does not use.
 //you can use this priciple by breaking down large protocols inot smaller more specific ones. That way you can confirm to multiple protocol better fit your requirement.
 
-//--- Use of Specific interface
-//--- Use to avoid unncessary dependencies and enahnce maintainability.
-//-   Use smaller protocols
-//--  Client- sepefice abstarctions
-// -- Greate flexibility
+//--> Use of Specific interface
+//--> Use to avoid unncessary dependencies and enahnce maintainability.
+//--> Use smaller protocols
+//--> Client-sepefice abstarctions
+//--> Flexibility
 
 protocol ReadPermissionProtocl {
     func authorizeReadAccessFile()

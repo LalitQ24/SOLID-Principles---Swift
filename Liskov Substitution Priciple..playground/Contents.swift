@@ -3,10 +3,10 @@ import UIKit
 //Liskov substitution Principle
 // It states that Objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program. In other words, subclasses should be able to extend the behavior of the superclass without breaking the functionality that the superclass provides
 
-//-->  Subclass compatibility
-//---  Preserve behavior
-//--   Polymorphism
-// --- Use Protocols for abstratctions
+//--> Subclass compatibility
+//--> Preserve behavior
+//--> Polymorphism
+//--> Use Protocols for abstratctions
 
 
 protocol Flyable {
