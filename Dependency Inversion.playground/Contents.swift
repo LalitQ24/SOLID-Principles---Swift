@@ -7,7 +7,7 @@ import UIKit
 // Dependency injection
 // Promotes Losse coupling
 // It is easier to testing and better maintainability.
-// use protocols to define abstarctions
+// use protocols to define abstraction
 
 protocol AnimalProtcol {
     func sound()
